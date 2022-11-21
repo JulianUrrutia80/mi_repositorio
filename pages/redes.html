@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- link fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900display=swap" rel="stylesheet">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Redes</title>
+</head>
+<body>
+    <header>
+        <img src="../img/np-seguros.png" alt="logo NP Seguros" class="logo-np">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="cotizacion.html">Solicita tu cotizacion</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Quienes somos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pag-redes">
+        <h1 data-aos="fade-down"  data-aos-easing="linear"
+        data-aos-duration="1500">Redes sociales</h1>
+        <ul id="opciones" class="animate__animated animate__fadeInDownBig">
+            Medios de contacto:
+            <ul>Telefono:
+                <li>2994703484 - 2996262487</li>
+            </ul>
+            <ul>Instagram:
+                <li><a href="https://www.instagram.com/np.seguros/" target="_blank">NP.SEGUROS</a></li>
+            </ul>
+            <ul>Correo electronico:
+                <li>NESTORRPERALTA@OUTLOOK.COM</li>
+            </ul>
+        </ul>
+        <p class="animate__animated animate__headShake">
+            Para cualquier consulta que necesite realizar complete los siguientes campos:
+        <p>
+        <form action="Consultas">
+            <fieldset>
+                <legend> Completa los datos </legend>
+                <div>
+                    <label for=""> Completa tu nombre </label>
+                    <input type="text" placeholder="Roberto Carlos">
+                </div>
+                <div>
+                    <label for=""> Completa tu email</label>
+                    <input type="email" placeholder="email@gmail.com">
+                </div>
+                <div>
+                    <label for=""> Realiza tu consulta</label>
+                    <input type="text" placeholder="Haga su consulta aqui" size="100">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar consulta">
+                    <input type="reset" value="Borrar consulta">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="pag-redes">
+        <h2>Todos los derechos reservados.</h2>
+    </footer>
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

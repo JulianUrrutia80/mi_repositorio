@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- link fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Cotizador</title>
+</head>
+<body>
+    <header>
+        <img src="../img/np-seguros.png" alt="logo NP Seguros" class="logo-np">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="redes.html">Redes</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pag-cotizador">
+        <h1 data-aos="fade-down"  data-aos-easing="linear"
+        data-aos-duration="1500">Cotizador web</h1>
+        <p class="animate__animated animate__rollIn">A continuacion se detallan los requisitos para <br> solicitar cualquier tipo de seguro.</p>
+        <ul id="opciones">
+            <li id="automotor">Seguro de automotores</li>
+            <ul>
+                <li>Año del vehiculo</li>
+                <li>Marca y modelo del vehiculo</li>
+                <li>DNI del tomador</li>
+            </ul>
+            <li id="hogar">Seguro de hogar</li>
+            <ul>
+                <li>Ubicacion del domicilio</li>
+                <li>Metros cuadrados del domicilio</li>
+                <li>DNI del tomador</li>
+            </ul>
+            <li id="accidentes">Seguro de accidentes personales</li>
+            <ul>
+                <li>Rubro</li>
+                <li>DNI del tomador</li>
+            </ul>
+            <li id="vida">Seguro de vida</li>
+            <ul>
+                <li>Edad</li>
+                <li>DNI del tomador</li>
+            </ul>
+        </ul>
+    </main>
+
+    <footer class="pag-cotizador">
+        <h2>Todos los derechos reservados.</h3>
+    </footer>
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
